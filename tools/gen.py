@@ -28,7 +28,7 @@ def docstr(s) -> str:
 
     return r
 
-with open(args.output, 'w') as file:
+with open(args.output, 'w', newline='\n') as file:
 
     # Instructions
     file.write('export const instructions = [\n')
