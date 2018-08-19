@@ -1,0 +1,9 @@
+*
+
+!.vscodeignore
+!out/*.js
+!package.json
+!README.md
+!LICENSE.md
+!snippets/
+!syntaxes/

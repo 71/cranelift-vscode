@@ -1,0 +1,22 @@
+{
+  "FunctionDecl": {
+    "prefix": "function",
+    "body": [
+      "function %${1:name}($2) {",
+      "\t$4",
+      "",
+      "entry$3:",
+      "\t$0",
+      "}"
+    ],
+    "description": "Function declaration."
+  },
+  "EBBDecl": {
+    "prefix": "ebb",
+    "body": [
+      "$0($1):",
+      "\t$2"
+    ],
+    "description": "Extended basic block declaration."
+  }
+}
